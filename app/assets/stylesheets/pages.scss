@@ -1,73 +1,154 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-
 //HOME
-.home-box {
-  margin-top: 0px;
-  display: flex;
-  height: 100vh;
-  width: 100%;
+
+.cp-logo-home {
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
-  background-color: rgb(238, 238, 238);
-  border-radius: 10px;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
-@keyframes homecolor {
-  0% {
-    background-color: #ffdd00
-  }
-
-  20% {
-    background-color: #0dff00
-  }
-
-  40% {
-    background-color: #00fffb
-  }
-
-  60% {
-    background-color: #0400ff
-  }
-
-  80% {
-    background-color: #ff00e1
-  }
-
-  100% {
-    background-color: #d00000
-  }
+.cp-logo-home img {
+  width: 300px !important;
+  height: auto;
 }
 
-.body-home {
-  -webkit-animation: homecolor 1s infinite;
-  animation: homecolor 1s infinite;
+
+.Cinky-play {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.Cinky-play img{
+  width: 350px !important;
+  height: auto;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("cinky-background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us-box {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  border-radius: 5px;
+}
+
+.cinky-text {
+  font-family: 'serif' !important;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+
+
+
+
+.btn-disco-here {
+  color: white;
+  width: 300px;
+  font-size: 3rem;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 3px white solid;
+  border-radius: 15px;
+  -webkit-animation: buttoncolor 1s infinite;
+  animation: buttoncolor 1s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
 
 
+.disco-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes buttoncolor {
+  0% {
+    background-color: #ff5c5c
+  }
+
+  20% {
+    background-color: #b11f1f
+  }
+
+  40% {
+    background-color: #ff5c5c
+  }
+
+  60% {
+    background-color: #b11f1f
+  }
+
+  80% {
+    background-color: #ff5c5c
+  }
+
+  100% {
+    background-color: #b11f1f
+  }
+}
+
+
+
+
 
 // DISCO
 
+.btn-home-here {
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px white solid;
+  border-radius: 15px;
+}
+
+
+.back-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 .disco-box {
   margin-top: 0px;
-  display: flex;
   height: 100vh;
   width:100%;
   justify-content: center;
 }
 
-// .disco-text {
-//   font-size: 10rem;
-//   text-align: center;
-//   font-family: 'Arial Narrow';
-// }
-
 .disco-text {
+  margin-top: 50px;
   font-size: 9rem;
   text-align: center;
-  line-height: 160px;
   font-weight: bolder;
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 3px rgb(255, 255, 255);
@@ -75,8 +156,20 @@
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
+  margin-bottom: 0;
 }
 
+.cp-logo-disco {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cp-logo-disco img {
+  width: 300px;
+  height: auto;
+  margin-bottom:0;
+}
 
 @keyframes bgcolor {
   0% {
@@ -105,8 +198,8 @@
 }
 
 .body-disco {
-  -webkit-animation: bgcolor 0.5s infinite;
-  animation: bgcolor 0.5s infinite;
+  -webkit-animation: bgcolor 0.3s infinite;
+  animation: bgcolor 0.3s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }

@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
   def disco
   end
+
+  def dress
+  end
+
+  def english
+  end
 end

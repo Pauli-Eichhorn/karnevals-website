@@ -30,6 +30,12 @@
 }
 
 .bg {
+  // -webkit-animation: bgimage 20s infinite;
+  // animation: bgimage 25s infinite;
+  // -webkit-animation-direction: alternate;
+  // animation-direction: alternate;
+
+
   /* The image used */
   background-image: url("cinky-background.jpg");
 
@@ -40,7 +46,23 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+
+
+// @keyframes bgimage {
+//   0% {
+//     background-image: url("cinky-background.jpg");
+//   }
+
+//   50% {
+//     background-image: url("cinky-background-2.png");
+//   }
+
+//   100% {
+//     background-image: url("ciky-backgorund-3.jpg");
+//   }
+// }
 
 .contact-us-box {
   margin-left: auto;
@@ -53,6 +75,7 @@
   padding-top: 5px;
   padding-bottom:5px;
   border-radius: 5px;
+  margin-top: 50px;
 }
 
 .cinky-text {
@@ -152,8 +175,6 @@
   font-weight: bolder;
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 3px rgb(255, 255, 255);
-  background-image: url(image_path('back-animation.png'));
-  -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
   margin-bottom: 0;
@@ -202,4 +223,104 @@
   animation: bgcolor 0.3s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
+}
+
+
+
+
+
+
+// DRESS
+
+a {
+  color:rgb(0, 247, 255)
+}
+
+.bg-dress{
+  background-image: url("Dress-background.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-home-here-black {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px rgb(0, 0, 0) solid;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px 3px rgba(148, 0, 211, 1),
+    0px 0px 0px 6px rgba(75, 0, 130, 1),
+    0px 0px 0px 9px rgba(0, 0, 255, 1),
+    0px 0px 0px 12px rgba(0, 255, 0, 1),
+    0px 0px 0px 15px rgba(255, 255, 0, 1),
+    0px 0px 0px 18px rgba(255, 127, 0, 1),
+    0px 0px 0px 21px rgba(255, 0, 0, 1);
+}
+
+.btn-dress-here {
+    color: white;
+    width: 300px;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px white solid;
+    border-radius: 15px;
+    -webkit-animation: dressbuttoncolor 1s infinite;
+    animation: dressbuttoncolor 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+
+@keyframes dressbuttoncolor {
+  0% {
+    background-color: #004cff
+  }
+
+  20% {
+    background-color: #0088ff
+  }
+
+  40% {
+    background-color: #004cff
+  }
+
+  60% {
+    background-color: #0088ff
+  }
+
+  80% {
+    background-color: #004cff
+  }
+
+  100% {
+    background-color: #0088ff
+  }
+}
+
+
+.btn-home-here-enlish {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 0px 3px rgba(148, 0, 211, 1),
+      0px 0px 0px 6px rgba(75, 0, 130, 1),
+      0px 0px 0px 9px rgba(0, 0, 255, 1),
+      0px 0px 0px 12px rgba(0, 255, 0, 1),
+      0px 0px 0px 15px rgba(255, 255, 0, 1),
+      0px 0px 0px 18px rgba(255, 127, 0, 1),
+      0px 0px 0px 21px rgba(255, 0, 0, 1);
 }

@@ -99,6 +99,47 @@
 }
 
 
+.btn-disco-here-2 {
+  color: white;
+  width: 300px;
+  font-size: 3rem;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 3px white solid;
+  border-radius: 15px;
+  -webkit-animation: buttoncolor-2 0.5s infinite;
+  animation: buttoncolor-2 0.5s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes buttoncolor-2 {
+  0% {
+    background-color: #ff0000
+  }
+
+  20% {
+    background-color: #f2ff00
+  }
+
+  40% {
+    background-color: #00ff22
+  }
+
+  60% {
+    background-color: #00ddff
+  }
+
+  80% {
+    background-color: #8400ff
+  }
+
+  100% {
+    background-color: #ff00e6
+  }
+}
 
 
 
